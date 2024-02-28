@@ -78,8 +78,8 @@ namespace ValoresEspeciais
 
             // Exercise 7
 
-            int i = short.MaxValue;
-            Console.WriteLine(( short) ( i + 1));
+            uint i = uint.MaxValue;
+            Console.WriteLine((uint) ( i + 1));
         }
     }
 }
