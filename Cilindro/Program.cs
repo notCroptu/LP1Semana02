@@ -12,7 +12,8 @@ namespace Cilindro
             Console.Write("Insere o raio do cilindro: ");
             float r = float.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Volume do cilindro: { MathF.PI * MathF.Pow(r, 2) * a}");
+            Console.WriteLine($"Volume do cilindro: {MathF.PI * MathF.Pow(r, 2) * a}");
+            Console.WriteLine($"A supreficie do cilindro: {2 * MathF.PI * r * (r + a)}");
         }
     }
 }
