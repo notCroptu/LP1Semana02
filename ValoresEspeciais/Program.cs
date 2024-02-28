@@ -6,6 +6,8 @@ namespace ValoresEspeciais
     {
         static void Main(string[] args)
         {
+            // Exercise 6
+
             sbyte bite = sbyte.MaxValue;
             short shorty = short.MaxValue;
             int inty = int.MaxValue;
@@ -73,6 +75,11 @@ namespace ValoresEspeciais
             Console.WriteLine($"{x}");
             Console.WriteLine($"{y}");
             Console.WriteLine($"{z}");
+
+            // Exercise 7
+
+            int i = short.MaxValue;
+            Console.WriteLine(( short) ( i + 1));
         }
     }
 }
