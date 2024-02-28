@@ -63,6 +63,16 @@ namespace ValoresEspeciais
             Console.WriteLine($"This is float: {floaty2}");
             Console.WriteLine($"This is double: {cheese2}");
             Console.WriteLine($"This is decimal: {dec2}");
+
+
+            double x = double. NegativeInfinity;
+            double y = double. PositiveInfinity;
+            float z = float .NaN;
+
+            Console.WriteLine("Special values: ");
+            Console.WriteLine($"{x}");
+            Console.WriteLine($"{y}");
+            Console.WriteLine($"{z}");
         }
     }
 }
