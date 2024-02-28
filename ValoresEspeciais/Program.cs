@@ -72,9 +72,9 @@ namespace ValoresEspeciais
             float z = float .NaN;
 
             Console.WriteLine("Special values: ");
-            Console.WriteLine($"{x}");
-            Console.WriteLine($"{y}");
-            Console.WriteLine($"{z}");
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
 
             // Exercise 7
 
@@ -84,6 +84,9 @@ namespace ValoresEspeciais
             float f = float.MaxValue;
             Console.WriteLine((float) (f * 2));
             Console.WriteLine((float) (f + 1));
+
+            float f2 = 10000.0f;
+            Console.WriteLine((float) (f2 + 0.0001f));
 
         }
     }
